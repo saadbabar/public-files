@@ -1,0 +1,6 @@
+ls --- list command to list out files in directory
+cd --- goes into a file/directory
+mkdir --- makes directory
+cd - or cd -- --- '-' takes you back one in previous directory, '--' takes you back all the way
+rm --- removes a file
+rm -r --- removes a directory
