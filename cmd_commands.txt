@@ -4,3 +4,5 @@ mkdir --- makes directory
 cd - or cd -- --- '-' takes you back one in previous directory, '--' takes you back all the way
 rm --- removes a file
 rm -r --- removes a directory
+pwd --- shows where you are
+echo --- adds text into a file
