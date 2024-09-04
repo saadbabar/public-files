@@ -59,7 +59,9 @@ When you **import** the package, Python looks through directories in `sys.path` 
 - The `__init__.py` files are important because they tell Python that the directory should be treated as a package. These files can be empty, or they can contain initialization code for the package.
 - Without the `__init__.py` file, Python won't know it's a package and may accidentally mix up similar directory names.
 
-
+## What is `__pycache__`?
+- It is a directory of code that has been compiled before and basically if that code is called again it makes the program more efficient because the program knows the output
+- before code is compiled it is stored in intermediate files called `bytecode` and it makes python faster to execute this file than recompile
 
 
 
