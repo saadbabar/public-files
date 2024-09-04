@@ -15,3 +15,14 @@ This document will encompass concepts and useful things to know for industry bes
 - All packages have this file.
 - This file marks a directory as a Python package.
 - The code within this file can be imported from other Python scripts.
+
+## How to make 'main' work
+
+- Create a `def main:` function where the main command line stuff will be processed as well as the main functionality
+- underneath you will have `if __name__ == "__main__"` where you call the `main` function
+
+## What is `if __name__ == "__main__"`?
+
+- It allows the Python program to be used as a standalone program as as a module that can be imported to other scripts
+- When using as script a program sets its own variables and one of them is `__name__` and that is set to `__main__`
+- the line `if __name__ == "__main__"` checks if the script is being run directly or being imported as a module
