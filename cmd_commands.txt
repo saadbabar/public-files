@@ -8,3 +8,4 @@ pwd --- shows where you are
 echo --- adds text into a file
 source env/bin/activate --- activates virtual environment
 deactivate --- deactivate virtual env
+python3 --- calls python interpretor in terminal
