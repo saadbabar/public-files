@@ -10,3 +10,5 @@ source env/bin/activate --- activates virtual environment
 deactivate --- deactivate virtual env
 python3 --- calls python interpretor in terminal
 tree -I __pycache --- tree shows the file and directory structure of the current folder and -I discludes files from the output
+cp {directory you want copied} {directory you want pasted into} --- ex. html/index.html insta485/templates/index.html will translate into whatever html/index.html carries so html directory will convert into templates and then index.html file will be copied
+cp -R --- copies directories recursively works similar to cp command however it takes the contents of the source directory and pastes it entirely into destintion directory

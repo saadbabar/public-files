@@ -67,6 +67,14 @@ When you **import** the package, Python looks through directories in `sys.path` 
 - it represents file paths as objects, making it easier to perform common file system operations like creating, joining, and manipulating paths
 - `pathlib.Path` represents file system paths as objects, making it easier to work with paths, abstracts the underlying OS, **and it provides methods to check if a file exists, reading/writing to files/ creating directories**
 
+## Pytest
 
-
+- Unit Test Utility that makes it wasy to run unit tests
+- `-vv` will give you maximum verbose ouptut
+- `-s` for stdout output
+- `-x` stops at the first error
+- `--last-failed` reruns last failed test
+- `--pdb -s` automatically starts debugger when a failure occurs
+- `--trace -s` starts a debugger on the first line of the test
+- `-s` sets a breakpoint
 
