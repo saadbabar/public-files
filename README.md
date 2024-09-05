@@ -63,6 +63,9 @@ When you **import** the package, Python looks through directories in `sys.path` 
 - It is a directory of code that has been compiled before and basically if that code is called again it makes the program more efficient because the program knows the output
 - before code is compiled it is stored in intermediate files called `bytecode` and it makes python faster to execute this file than recompile
 
+## What is Pathlib?
+- it represents file paths as objects, making it easier to perform common file system operations like creating, joining, and manipulating paths
+- `pathlib.Path` represents file system paths as objects, making it easier to work with paths, abstracts the underlying OS, **and it provides methods to check if a file exists, reading/writing to files/ creating directories**
 
 
 
