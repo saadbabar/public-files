@@ -78,3 +78,14 @@ When you **import** the package, Python looks through directories in `sys.path` 
 - `--trace -s` starts a debugger on the first line of the test
 - `-s` sets a breakpoint
 
+## Shell Scripting
+
+- Automates command line tasks
+- Each line of code in a shell script is a command that could be entered at the command line
+- make an extentionless file and write command line arguments in each line 
+- you can use `#` for comment purposes
+- run command `chmod +x {file_name}` to create executable and then `./{file_name}` to run executable
+- all shell scripts need a special first line beginning with `#!/bin/bash` do not forget it
+- By default, shells cripts do not stop on errors so you need to set the permission to do this `set -Eeuo pipefail` 
+- `ls -l {file_name}` will tell you the permissions of the file
+
